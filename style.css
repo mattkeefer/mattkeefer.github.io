@@ -1,0 +1,75 @@
+.heading {
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+	font-size: 50px;
+  border: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+html, body {
+  margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.parallax { 
+  /* The image used */
+  background-image: url("http://static1.squarespace.com/static/5bdc5211b27e39f6e3a56c93/5bdc5648032be468ca7745e3/5bf257a489858303788960ec/1543076667490/?format=1500w");
+  /* Full height */
+  height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.content {
+  background-color: rgb(233, 142, 57);
+  padding: 16px;
+	font-size: 28px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
