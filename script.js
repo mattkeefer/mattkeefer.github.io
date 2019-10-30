@@ -4,4 +4,4 @@ for(let i=0; i<logo.length; i++) {
     console.log(`Letter ${i} is ${logo[i].getTotalLength()}`);
 }
 
-document.querySelector('video').playbackRate = 0.75;
+document.querySelector('video').playbackRate = 1;
