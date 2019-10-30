@@ -91,6 +91,8 @@ div h2 {
 }
 
 .profile-pic {
+    height: 20rem;
+    width: 20rem;
     border-radius: 50%;
 }
 
