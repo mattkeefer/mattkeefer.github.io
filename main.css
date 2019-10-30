@@ -87,12 +87,33 @@ body {
 }
 
 div h2 {
-    padding-top: 3rem;
+    padding-top: 4rem;
+}
+
+#profile-section {
+    display: inline-block;
+    padding: 2rem;
+    justify-content: right;
+}
+
+.p-text {
+    font-size: 1.8rem;
+    width: 40vw;
+    text-align: left;
+}
+
+.icons-td {
+    padding-right: 50px;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
 }
 
 .profile-pic {
     height: 20rem;
     width: 20rem;
+    padding: 4rem;
     border-radius: 50%;
 }
 
