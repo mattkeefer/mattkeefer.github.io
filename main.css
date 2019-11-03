@@ -63,7 +63,7 @@ body {
 }
 
 #resume {
-    background-color: #e3dfd3;
+    background-color: #F3EFE0;
     color: #1052c4;
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 #contact {
-    background-color: #e3dfd3;
+    background-color: #F3EFE0;
     color: #1052c4;
 }
 
@@ -92,7 +92,7 @@ div h2 {
 
 #profile-section {
     display: inline-block;
-    padding: 2rem;
+    padding: 5vh 5vw 5vh 5vw;
     justify-content: right;
 }
 
@@ -103,7 +103,7 @@ div h2 {
 }
 
 .icons-td {
-    padding-right: 50px;
+    padding-right: 5vw;
 }
 
 .material-icons {
@@ -111,10 +111,26 @@ div h2 {
 }
 
 .profile-pic {
-    height: 20rem;
-    width: 20rem;
-    padding: 4rem;
+    height: 40vh;
+    padding: 5vh 5vw 5vh 5vw;
     border-radius: 50%;
+}
+
+.resume-doc {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 50vw;
+    height: 70vh;
+}
+
+.contact-tb {
+    /* table stlying */
+    opacity: 0%;
+}
+
+.contact-tb p {
+    /* text in table */
+    opacity: 0%;
 }
 
 #logo path:nth-child(1) {
