@@ -75,6 +75,7 @@ body {
 #contact {
     background-color: #F3EFE0;
     color: #1052c4;
+    height: 50vh;
 }
 
 #logo {
@@ -124,13 +125,19 @@ div h2 {
 }
 
 .contact-tb {
-    /* table stlying */
-    opacity: 0%;
+    padding-top: 6vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.contact-tb p {
-    /* text in table */
-    opacity: 0%;
+#email, #linkedin, #facebook {
+    text-align: left;
+}
+
+#email a, #linkedin a, #facebook a {
+    padding-left: 3vw;
+    text-decoration: none;
+    color: #000;
 }
 
 #logo path:nth-child(1) {
