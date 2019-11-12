@@ -234,14 +234,19 @@ div h2 {
     margin-right: auto;
 }
 
-#email, #linkedin, #facebook {
+.contact-content {
     text-align: left;
 }
 
-#email a, #linkedin a, #facebook a {
+.contact-content a {
     padding-left: 3vw;
     text-decoration: none;
     color: #000;
+}
+
+.contact-content a:hover {
+    text-decoration: underline;
+    color: #1052c4;
 }
 
 #logo path:nth-child(1) {
