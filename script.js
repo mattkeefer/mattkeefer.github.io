@@ -12,3 +12,13 @@ function init() {
     document.body.style.backgroundImage = bgImage;
     document.getElementById("link").style.backgroundImage = bgImage;
 }
+
+function hover() {
+    document.getElementById("link").innerHTML = "Portfolio";
+    document.getElementById("link").style.fontSize = "9vw";
+}
+
+function noHover() {
+    document.getElementById("link").innerHTML = "Matt";
+    document.getElementById("link").style.fontSize = "20vw";
+}
