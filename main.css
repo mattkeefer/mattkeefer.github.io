@@ -1,21 +1,17 @@
-:root {
-    --bg-img1: url("resources/blue.jpg");
-    --bg-img2: url("https://img.freepik.com/premium-vector/abstract-gradient-background-with-grainy-texture_74563-1544.jpg?w=2000");
-    --bg-img3: url("https://wallpapercrafter.com/desktop/15421-gradient-green-texture-background-4k.jpg");
-    --bg-img4: url("resources/orange.jpg");
-    --bg-img5: url("resources/purple.jpg");
-}
-
 body {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
-    background: var(--bg-img1);
+    background: #222 no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
 h1 {
     font-size: 200px;
+    font-size: 20vw;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 20px;
@@ -24,7 +20,10 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
-    background: var(--bg-img1);
+}
+
+#link {
+    background-color: #fff;
     background-size: cover;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -33,4 +32,5 @@ h1 {
 
 h1:hover {
     font-size: 205px;
+    font-size: 21vw;
 }
