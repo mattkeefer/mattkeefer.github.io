@@ -4,7 +4,7 @@ function init() {
         // "url(resources/red.jpg)",
         // "url(resources/purple.jpg)",
         // "url(resources/orange-pink.jpg)",
-        "url(resources/pink-blue.jpg)",
+        // "url(resources/pink-blue.jpg)",
         // "url(resources/blurry.jpg)",
         // "url(resources/blue-pink.jpg)",
     ];
