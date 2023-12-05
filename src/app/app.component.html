@@ -1,0 +1,10 @@
+<div class="container text-center">
+  <div class="container-fluid">
+    <img class="mx-auto d-block my-5" src="assets/favicon.ico"  alt="MK logo"/>
+    <ul class="link-list">
+      <li *ngFor="let item of listItems; let i = index">
+        <a [ngClass]="'i' + i" [href]="item.uri">{{item.title}}</a>
+      </li>
+    </ul>
+  </div>
+</div>
